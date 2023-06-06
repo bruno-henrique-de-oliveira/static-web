@@ -45,19 +45,13 @@ footer {
   right: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .container {
     flex-direction: column;
   }
 
-  .login-container {
-    order: 2;
-  }
-
   .image-container {
-    order: 1;
     display: none;
-    overflow: hidden;
   }
 }
 
