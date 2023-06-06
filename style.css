@@ -50,8 +50,14 @@ footer {
     flex-direction: column;
   }
 
+  .login-container {
+    order: 2;
+  }
+
   .image-container {
+    order: 1;
     display: none;
+    overflow: hidden;
   }
 }
 
